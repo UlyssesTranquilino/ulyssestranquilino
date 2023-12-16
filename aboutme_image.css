@@ -1,0 +1,51 @@
+.image_aboutme img {
+  height: 100%;
+  content: url('abt_small.png');
+}
+
+ /* xs */
+ @media (min-width: 475px) {
+    .about {
+        gap: 1.5rem;
+    }
+  }
+  
+  /* sm */
+  @media (min-width: 640px) {
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+
+  }
+  
+  /* lg */
+  @media (min-width: 1024px) {
+    .image_aboutme img {
+        padding-top: 11.6rem;
+    }
+
+  }
+  
+  /* xl */
+  @media (min-width: 1280px) {
+    .about {
+        gap: 2rem;
+    }
+    .image_aboutme img {
+        padding-top: 11.6rem;
+        content: url("abt.png");
+        height: 100%;
+    }
+
+  }
+  
+  /* 2xl */
+  @media (min-width: 1536px) {
+    .image_aboutme img {
+        padding-top: 3.5rem;
+        height: 47rem;
+        margin: 0 auto;
+       }
+  }
+  
