@@ -287,19 +287,6 @@
 
         <script>
 
-const headerBars = document.querySelector('.header__bars');
-const mobileNav = document.querySelector('.mobile-nav');
-
-headerBars.addEventListener('click', () => {
-  mobileNav.classList.toggle('active');
-  if (mobileNav.classList.contains('active')) {
-    document.documentElement.style.overflow = 'hidden';
-  } else {
-    document.documentElement.style.overflow = 'auto';
-  }
-});
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const headerBtn = document.querySelector('.header__bars');
     const mobileNav = document.querySelector('.mobile-nav');
